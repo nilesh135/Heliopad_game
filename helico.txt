@@ -1,7 +1,9 @@
 ///code to animate a 2D helicopter game
 
 #include<stdlib.h> 
-#include<GL/glut.h>
+#include<GL\gl.h>
+#include<GL\glu.h>
+#include<GL\glut.h>
 #include<time.h> 
 //#include<dos.h> 
 #include<stdio.h> 
@@ -25,7 +27,7 @@ void frontsheet(void)
 	glClear(GL_COLOR_BUFFER_BIT);
 	glColor3f(1.0, 1.0, 0.0);
 	Write(-0.50, 0.9, 1, 0.0007, (char*)"K J Somaiya College Of Engineering");
-	Write(-0.55, 0.8, 1, 0.0006, (char*)"    Department of CSE");
+	Write(-0.55, 0.8, 1, 0.0006, (char*)"         Department of CSE");
 	glColor3f(1.0, 0.0, 0.0);
 	Write(-0.45, 0.6, 0.0, 0.0007, (char*) " 2D Helicopter Game");
 	glColor3f(1.0, 1.0, 0.5);
